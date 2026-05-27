@@ -396,6 +396,39 @@
                         </div>
                     </div>
                 </div>
+                <!-- Project 4: Traffic Control System -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <i class="fas fa-traffic-light project-image-icon"></i>
+                        <div class="project-overlay">
+                            <span style="color: #fff; font-size: 0.85rem;">Traffic Control System</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Traffic Control System</h3>
+                        <p class="project-description">
+                            Developed a responsive Traffic Control System web application featuring smart traffic signal
+                            simulation, real-time traffic monitoring concepts, and an interactive dashboard interface
+                            using HTML, CSS, and JavaScript. Designed with modern UI/UX principles and optimized for
+                            performance across multiple devices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MadhanG16/Traffic-Control-System.git"
+                                class="project-link github">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://traffic-control-system-two.vercel.app/" class="project-link demo">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -630,33 +663,6 @@
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
-                </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form-wrapper reveal-right">
-                    <form id="contact-form" action="{% url 'core:contact' %}" method="POST">
-                        {% csrf_token %}
-                        <div class="form-group">
-                            <label class="form-label" for="name">Your Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required
-                                minlength="2">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="email">Your Email</label>
-                            <input type="email" id="email" name="email" class="form-input"
-                                placeholder="john@example.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="message">Your Message</label>
-                            <textarea id="message" name="message" class="form-textarea"
-                                placeholder="Tell me about your project or just say hello..." required
-                                minlength="10"></textarea>
-                        </div>
-                        <button type="submit" class="btn-send" id="submit-btn">
-                            <i class="fas fa-paper-plane"></i> Send Message
-                        </button>
-                        <div class="form-message" id="form-message"></div>
-                    </form>
                 </div>
             </div>
         </div>
